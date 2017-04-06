@@ -17,7 +17,7 @@ var leftMargin = 0;
 var leftMargin1 = 0;
 var leftMargin2 = 0;
 var leftMargin3 = 0;
-var topmMargin = 0;
+var bottomMargin = 0;
 
 // Variable used to add to the left margin.
 var moveAmount = 5;
@@ -69,8 +69,8 @@ function box4Clicked() {
     
     console.log("Hey, box4 clicked!");
 
-    topmMargin += moveAmount4;
-    boxes[4].style.topmMargin = topmMargin + "px";
+    bottomMargin += moveAmount4;
+    boxes[4].style.marginTop = bottomMargin + "px";
 }
 
 
